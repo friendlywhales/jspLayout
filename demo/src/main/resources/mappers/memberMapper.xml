@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.zerock.mapper.MemberMapper">
+
+<select id="read2" resultType="org.zerock.domain.MemberVO">
+/* read2 select */
+ select * from user where platform_uid = '261181342'
+</select>
+
+
+</mapper>
